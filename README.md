@@ -40,6 +40,12 @@ This directory contains all the docker-compose files that I have used to run the
 
 ## Jenkinsfiles
 
-This directory contains all the Jenkinsfiles that I have used to create the Jenkins pipelines for building, testing, and deploying the frontend and backend servers.
+This directory contains all the Jenkins files that I have used to create the Jenkins pipelines for building, testing, and deploying the frontend and backend servers.
+
+## Mistakes
+
+I should have done the following:
+1. While building the new version, there should be an available active version to not cause unneeded downtime.
+2. I should apply the QA testing in a different branch to not cause long pipelines and unneeded downtime.
 
 Thank you for visiting my repository! Please feel free to explore the files and use them as a reference for your DevOps projects.
